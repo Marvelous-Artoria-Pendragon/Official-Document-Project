@@ -5,6 +5,7 @@ import csv
 import re
 import pickle
 
+
 # stop = '[’!"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~]+'    # 停用标点符号
 reg = "[^\u4e00-\u9fa5a-zA-Z]"                            # 只保留中文、大小写字母
 def segment():
